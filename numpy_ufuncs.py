@@ -10,42 +10,42 @@ for i in range(0,len(list1)):
 print(result)
 # this takes so much time and effort to write the code
 # using numpy ufuncs
-list1 = np.array([1,2,3])
-list2 = np.array([1,2,3])
-print(list1 + list2)
-print(np.add(list1,list2))
+arr1 = np.array([1,2,3])
+arr2 = np.array([1,2,3])
+print(arr1 + arr2)
+print(np.add(arr1,arr2))
 
 # subtract
-print(list1 - list2)
-print(np.subtract(list1,list2))
+print(arr1 - arr2)
+print(np.subtract(arr1,arr2))
 
 # multiply
-print(list1 * list2)
-print(np.multiply(list1,list2))
+print(arr1 * arr2)
+print(np.multiply(arr1,arr2))
 
 # divide
-print(list1 / list2)
-print(np.divide(list1,list2))
+print(arr1 / arr2)
+print(np.divide(arr1,arr2))
 
 # power
-print(list1 ** list2)
-print(np.power(list1,list2))
+print(arr1 ** arr2)
+print(np.power(arr1,arr2))
 
 # modulus
-print(list1 % list2)
-print(np.mod(list1,list2))
+print(arr1 % arr2)
+print(np.mod(arr1,arr2))
 
-# sum of all values in list1 and list2
-print(np.sum([list1,list2]))
+# sum of all values in arr1 and arr2
+print(np.sum([arr1,arr2]))
 
 # sum of values axis wise
-print(np.sum([list1,list2], axis=1))
+print(np.sum([arr1,arr2], axis=1))
 
-# product of all values in list1 and list2
-print(np.prod([list1,list2]))
+# product of all values in arr1 and arr2
+print(np.prod([arr1,arr2]))
 
 # product of values axis wise
-print(np.prod([list1,list2], axis=1))
+print(np.prod([arr1,arr2], axis=1))
 
 # can be done for single array as well
-print(np.prod(list1))
+print(np.prod(arr1))
